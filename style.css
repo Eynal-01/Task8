@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.form1{
+    width:70%;
+    margin:auto;
+    background-color: white;
+    border-radius: 5px;
+}
