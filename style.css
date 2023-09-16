@@ -102,7 +102,7 @@ body {
     /* background:url("images/back1.png") no-repeat; */
     /* background-size: 100%; */
     margin-top: 20%;
-    background-color: #6b7b8a;
+    background-color: #707C84;
     position: relative;
     padding-bottom: 15%;
 }
@@ -112,6 +112,12 @@ body {
     margin-top: 5%;
     margin-left: 5%;
     display: inline-block;
+    color:white;
+}
+
+#now{
+    color:#81d165;
+    display: inline-block;
 }
 
 .form2>p {
@@ -119,6 +125,7 @@ body {
     font-family: var(--main-font);
     margin-right: 6%;
     margin-top: 5%;
+    color:white;
 }
 
 .forAccount {
@@ -159,7 +166,7 @@ body {
 }
 
 .facebook {
-    width: 32%;
+    width: 33%;
     background-color: #3c5a98;
     display: inline-block;
     color: white;
@@ -172,13 +179,13 @@ body {
 .facebook>i {
     display: inline-block;
     position: absolute;
-    left: 10%;
+    left: 8%;
     top: 30%;
 }
 
 .facebook>p {
     display: inline-block;
-    margin-left: 20%;
+    margin-left: 25%;
     font-size: small;
 }
 
@@ -197,7 +204,7 @@ body {
 
 .twitter {
     text-align: center;
-    width: 32%;
+    width: 33%;
     background-color: #00abf0;
     display: inline-block;
     color: white;
@@ -208,11 +215,14 @@ body {
 
 .twitter>i {
     display: inline-block;
+    position: absolute;
+    left: 8%;
+    top: 30%;
 }
 
 .twitter>p {
     display: inline-block;
-    margin-left: 2%;
+    margin-left:15%;
     font-size: small;
 }
 
@@ -450,18 +460,18 @@ body {
 }
 
 .form5 {
-    height: 100vh;
     background-color: #374954;
     padding: 5%;
     text-align: center;
+    position: relative;
 }
 
 .form5>h1 {
     color: white;
-    margin:auto;
+    margin: auto;
     font-family: var(--main-font);
     font-weight: lighter;
-    margin-top:5%;
+    margin-top: 5%;
 }
 
 .forReg3 {
@@ -472,7 +482,6 @@ body {
     border-radius: 5px;
     text-align: left;
     position: relative;
-    margin-top: 10%;
 }
 
 #email3 {
@@ -508,18 +517,114 @@ body {
     color: #4f6877;
 }
 
-.right3{
+.right3 {
     text-align: center;
 }
 
-.right3>p{
-    color:#ffffff;
+.right3>p {
+    color: #ffffff;
     font-family: var(--main-font);
-    margin-top:20%;
+    margin-top: 15%;
 }
 
-.right3>img{
-    margin:5%;
+.right3>img {
+    margin: 5%;
+    margin-top: 10%;
+    width: 15%;
+}
+
+.form6 {
+    height: 100vh;
+    background-color: #707C84;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+.forReg4 {
+    width: 60%;
+    padding: 5%;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    margin-top: 10%;
+}
+
+.forReg4>h1 {
+    font-family: var(--main-font);
+    color: #4f4f4f;
+    margin-top: 10%;
+    text-transform: uppercase;
+    display: block;
+}
+
+/* .head1 {
+    margin-top: 20%;
+    width: 80%;
+    margin:auto;
+    position:relative;
+}
+
+.lastlog {
+    color:black;
+    background-color: #6bbe92;
+    font-family: var(--main-font);
+    padding: 2%;
+    position: relative;
+    width:100%;
+}
+
+#l{
+    display:inline-block;
+    position:absolute;
+    left:2%;
+}
+
+#r{
+    display: inline-block;
+    position:absolute;
+    right:2%;
+}
+
+.or1 {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 3%;
+    padding-left:4%;
+    padding-right:4%;
+    background-color: #6bbe92;
+    font-family: var(--main-font);
+    color:white;
+    z-index: 100%;
+} 
+
+.lastreg {
+    display: inline-block;
+    padding: 2%;
+    font-family: var(--main-font);
+    background-color: #6bbe92;
+    color:white;
+}*/
+
+.left4>p{
+    color:#4f4f4f;
+    margin-top:7%;
+    font-family: var(--main-font);
+}
+
+#twit{
+    background-color: #00abf0;
+}
+
+
+
+#lastbtn{
+    background-color: #6bbe92;
+    width:40%;
     margin-top:10%;
-    width:15%;
+    padding:5%;
+    border-radius: 5px;
 }
