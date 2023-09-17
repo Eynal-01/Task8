@@ -66,7 +66,7 @@ body {
 
 .checkbox {
     margin-top: 6%;
-    width: 50%;
+    width: 48%;
     text-align: center;
     display: inline-block;
     color: #4f4f4f;
@@ -76,24 +76,16 @@ body {
 .checkbox>input {
     margin-left: 2%;
     font-family: var(--main-font);
-}
-
-.btn {
     display: inline-block;
-    margin-left: 10%;
-    width: 38%;
-    padding: 0;
 }
 
 #signbtn {
     font-family: var(--main-font);
     background-color: rgba(232, 38, 38, 0.8392156862745098);
-    width: 100%;
     display: inline-block;
-    width: 38%;
+    width: 30%;
     padding: 4%;
-    margin-left: 60%;
-    margin-top: 10%;
+    margin-left: 10%;
     border-radius: 5px;
     color: white;
 }
@@ -105,6 +97,7 @@ body {
     background-color: #707C84;
     position: relative;
     padding-bottom: 15%;
+    padding-top:5%;
 }
 
 .form2>h1 {
@@ -112,11 +105,11 @@ body {
     margin-top: 5%;
     margin-left: 5%;
     display: inline-block;
-    color:white;
+    color: white;
 }
 
-#now{
-    color:#81d165;
+#now {
+    color: #81d165;
     display: inline-block;
 }
 
@@ -125,12 +118,12 @@ body {
     font-family: var(--main-font);
     margin-right: 6%;
     margin-top: 5%;
-    color:white;
+    color: white;
 }
 
 .forAccount {
     background-color: white;
-    width: 55%;
+    width: 62%;
     margin: auto;
     margin-top: 10%;
     padding: 5%;
@@ -166,7 +159,7 @@ body {
 }
 
 .facebook {
-    width: 33%;
+    width: 31%;
     background-color: #3c5a98;
     display: inline-block;
     color: white;
@@ -180,7 +173,7 @@ body {
     display: inline-block;
     position: absolute;
     left: 8%;
-    top: 30%;
+    top: 35%;
 }
 
 .facebook>p {
@@ -204,7 +197,7 @@ body {
 
 .twitter {
     text-align: center;
-    width: 33%;
+    width: 31%;
     background-color: #00abf0;
     display: inline-block;
     color: white;
@@ -217,18 +210,17 @@ body {
     display: inline-block;
     position: absolute;
     left: 8%;
-    top: 30%;
+    top: 35%;
 }
 
 .twitter>p {
     display: inline-block;
-    margin-left:15%;
+    margin-left: 15%;
     font-size: small;
 }
 
 #signbtn2 {
     background-color: #81d165;
-    width: 100%;
     display: inline-block;
     width: 38%;
     padding: 4%;
@@ -534,12 +526,12 @@ body {
 }
 
 .form6 {
-    height: 100vh;
     background-color: #707C84;
     text-align: center;
     color: white;
     padding-top: 5%;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
+    position: relative;
 }
 
 .forReg4 {
@@ -551,6 +543,7 @@ body {
     text-align: center;
     position: relative;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .forReg4>h1 {
@@ -609,22 +602,368 @@ body {
     color:white;
 }*/
 
-.left4>p{
-    color:#4f4f4f;
-    margin-top:7%;
+.left4>p {
+    color: #4f4f4f;
+    margin-top: 7%;
     font-family: var(--main-font);
 }
 
-#twit{
+#twit {
     background-color: #00abf0;
 }
 
 
 
-#lastbtn{
+#lastbtn {
     background-color: #6bbe92;
-    width:40%;
-    margin-top:10%;
-    padding:5%;
+    width: 40%;
+    margin-top: 10%;
+    padding: 5%;
     border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .form1 {
+        margin-top: 5%;
+    }
+
+    .form1>p {
+        font-size: 30px;
+    }
+
+    .form1>h1 {
+        font-size: 40px;
+    }
+
+    .lbl {
+        font-size: 20px;
+        margin-top: 5%;
+    }
+
+    #email {
+        margin-top: 1%;
+        font-size: 30px;
+    }
+
+    #signbtn {
+        font-size: 30px;
+        width: 25%;
+        margin-left: 70%;
+        padding: 3%;
+        text-align: center;
+    }
+
+    .checkbox {
+        font-size: 30px;
+        margin-top: 10%;
+    }
+
+    .form2 {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .form2>p {
+        font-size: 30px;
+        margin-top: 2%;
+    }
+
+    .form2>h1 {
+        font-size: 40px;
+    }
+
+    #email {
+        width: 70%;
+        display: block;
+    }
+
+    #email2 {
+        margin-top: 2%;
+        font-size: 30px;
+        width: 70%;
+    }
+
+    .forAccount {
+        font-size: 30px;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .choice {
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .twitter {
+        padding: 2%;
+        width: 25%;
+    }
+
+    .twitter>p {
+        font-size: 30px;
+    }
+
+    .facebook {
+        padding: 2%;
+        width: 25%;
+    }
+
+    .facebook>p {
+        font-size: 30px;
+    }
+
+    #signbtn2 {
+        font-size: 30px;
+        width: 30%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .form3 {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    .form3>p {
+        font-size: 30px;
+        margin-top: 2%;
+    }
+
+    .form3>h1 {
+        font-size: 40px;
+        margin-top: 5%;
+    }
+
+    .forReg {
+        margin-top: 5%;
+        font-size: 30px;
+        padding: 2%;
+        text-align: center;
+    }
+
+    .left1 {
+        width: 45%;
+        display: inline-block;
+    }
+
+    .right1 {
+        width: 45%;
+        display: inline-block;
+    }
+
+    .facebookLog {
+        width: 40%;
+        margin: auto;
+        padding: 2%;
+        position: relative;
+        margin-top: 5%;
+    }
+
+    .facebookLog>p {
+        margin-left: 10%;
+        font-size: 25px;
+    }
+
+    #face {
+        font-size: 30px;
+    }
+
+    .head>img {
+        margin-top: -1.6%;
+    }
+
+    .head {
+        text-align: center;
+    }
+
+
+    .head>p {
+        font-size: 40px;
+    }
+
+    #reg {
+        width: 70%;
+        font-size: 30px;
+
+    }
+
+    .signup {
+        text-align: center;
+    }
+
+    .checkbox2 {
+        margin-top: 8%;
+        width: 65%;
+        font-size: 30px;
+        margin-left: -5%;
+    }
+
+    #loginbtn {
+        width: 60%;
+        padding: 3%;
+        font-size: 30px;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    #regword {
+        margin-top: -2%;
+    }
+
+    #regbtn {
+        width: 60%;
+        padding: 3%;
+        font-size: 30px;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    #email {
+        margin-bottom: 1%;
+        font-size: 30px;
+    }
+
+    .form4 {
+        margin-top: 5%;
+        text-align: center;
+    }
+
+
+    .forReg2 {
+        margin-top: 1%;
+        font-size: 30px;
+        padding: 2%;
+        text-align: center;
+    }
+
+    .left2 {
+        display: inline-block;
+        width: 45%;
+        margin-right: 2%;
+    }
+
+    .right2 {
+        display: inline-block;
+        width: 45%;
+        margin-left: 2%;
+    }
+
+    #ff2 {
+        width: 50%;
+    }
+
+    #reg1 {
+        width: 80%;
+        margin: auto;
+        margin-top: 10%;
+        padding: 3%;
+        font-size: 30px;
+    }
+
+    #loginbtn1 {
+        width: 60%;
+        padding: 4%;
+        margin-top: 10%;
+        align-self: center;
+        font-size: 30px;
+    }
+
+    .checkbox3 {
+        margin-top: 10%;
+        width: 70%;
+        font-size: 30px;
+    }
+
+    .lbl1 {
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 2%;
+    }
+
+    #email1 {
+        width: 95%;
+        margin: auto;
+        margin-top: 3%;
+        border-radius: 3px;
+        padding: 2%;
+        font-size: 30px;
+        margin-bottom: 2%
+    }
+
+    #regword1 {
+        margin-top: -2%;
+    }
+
+    #regbtn {
+        width: 60%;
+        padding: 4%;
+        margin-top: 10%;
+        font-size: 30px;
+    }
+
+    .form5 {
+        text-align: center;
+    }
+
+    .form5>h1 {
+        font-size: 40px;
+        margin-top: 3%;
+    }
+
+    .left3 {
+        display: inline-block;
+        width: 45%;
+        text-align: center;
+        margin-left: -7%;
+    }
+
+    .right3 {
+        display: inline-block;
+        width: 47%;
+        text-align: center;
+        margin-left: 12%;
+    }
+
+    .right3>p {
+        font-size: 20px;
+    }
+
+    #email3 {
+        width: 100%;
+        margin-top: 10%;
+        padding: 2%;
+        font-size: 30px;
+    }
+
+    .checkbox4 {
+        margin-top: 10%;
+        width: 90%;
+        font-size: 30px;
+    }
+
+    #loginbtn2 {
+        width: 90%;
+        padding: 4%;
+        font-size: 30px;
+        margin-top: 10%;
+        align-self: center;
+    }
+
+    .forReg4 {
+        margin-top: 1%;
+        font-size: 30px;
+        padding: 2%;
+        text-align: center;
+        width:50%;
+    }
+
+    #lastbtn {
+        width: 40%;
+        margin-top: 7%;
+        padding: 3%;
+        font-size: 30px;
+    }
 }
